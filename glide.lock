@@ -1,15 +1,10 @@
-hash: 4ca897ef14b2d7db3f9f5404e44acb37a14da7c7193a9abdd223fcf3fbb8457d
-updated: 2018-07-29T18:30:28.576925868+08:00
+hash: ad5bd56f6d74e9a1c20beb0c2a2dfca3f894ca4d2e756966210b2ef34e8d9b80
+updated: 2018-07-29T20:31:27.10421752+08:00
 imports:
 - name: github.com/cihub/seelog
-  version: f561c5e57575bb1e0a2167028b7339b3a8d16fb4
-  subpackages:
-  - archive
-  - archive/gzip
-  - archive/tar
-  - archive/zip
+  version: d2c6e5aa9fbfdd1c624e140287063c7730654115
 - name: github.com/golang/protobuf
-  version: 11bd559057bb9c65e24d1bd7f436d375323a8565
+  version: b4deda0973fb4c70b50d226b1af49f3da59f5265
   subpackages:
   - proto
   - ptypes
@@ -19,7 +14,6 @@ imports:
 - name: github.com/jsonkey/example
   version: 1b1ef2cbf50d8a199d9d00daa3d265478f1ac3aa
   subpackages:
-  - example/src/proto/ex
   - src/utils
 - name: golang.org/x/net
   version: 3673e40ba22529d22c3fd7c93e97b0ce50fa7bdd
@@ -31,10 +25,6 @@ imports:
   - idna
   - internal/timeseries
   - trace
-- name: golang.org/x/sys
-  version: bd9dbc187b6e1dacfdd2722a87e83093c2d7bd6e
-  subpackages:
-  - unix
 - name: golang.org/x/text
   version: 0605a8320aceb4207a5fb3521281e17ec2075476
   subpackages:
@@ -47,7 +37,7 @@ imports:
   subpackages:
   - googleapis/rpc/status
 - name: google.golang.org/grpc
-  version: 804c2a905125ada0c64a347eab5d09d0ad31895e
+  version: 168a6198bcb0ef175f7dacec0b8691fc141dc9b8
   subpackages:
   - balancer
   - balancer/base
@@ -61,9 +51,7 @@ imports:
   - internal
   - internal/backoff
   - internal/channelz
-  - internal/envconfig
   - internal/grpcrand
-  - internal/transport
   - keepalive
   - metadata
   - naming
@@ -74,4 +62,5 @@ imports:
   - stats
   - status
   - tap
+  - transport
 testImports: []
