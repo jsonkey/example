@@ -1,0 +1,77 @@
+hash: 4ca897ef14b2d7db3f9f5404e44acb37a14da7c7193a9abdd223fcf3fbb8457d
+updated: 2018-07-29T18:30:28.576925868+08:00
+imports:
+- name: github.com/cihub/seelog
+  version: f561c5e57575bb1e0a2167028b7339b3a8d16fb4
+  subpackages:
+  - archive
+  - archive/gzip
+  - archive/tar
+  - archive/zip
+- name: github.com/golang/protobuf
+  version: 11bd559057bb9c65e24d1bd7f436d375323a8565
+  subpackages:
+  - proto
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/timestamp
+- name: github.com/jsonkey/example
+  version: 1b1ef2cbf50d8a199d9d00daa3d265478f1ac3aa
+  subpackages:
+  - example/src/proto/ex
+  - src/utils
+- name: golang.org/x/net
+  version: 3673e40ba22529d22c3fd7c93e97b0ce50fa7bdd
+  subpackages:
+  - context
+  - http/httpguts
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - trace
+- name: golang.org/x/sys
+  version: bd9dbc187b6e1dacfdd2722a87e83093c2d7bd6e
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 0605a8320aceb4207a5fb3521281e17ec2075476
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/genproto
+  version: 2a72893556e4d1f6c795a4c039314c9fa751eedb
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: 804c2a905125ada0c64a347eab5d09d0ad31895e
+  subpackages:
+  - balancer
+  - balancer/base
+  - balancer/roundrobin
+  - codes
+  - connectivity
+  - credentials
+  - encoding
+  - encoding/proto
+  - grpclog
+  - internal
+  - internal/backoff
+  - internal/channelz
+  - internal/envconfig
+  - internal/grpcrand
+  - internal/transport
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - resolver
+  - resolver/dns
+  - resolver/passthrough
+  - stats
+  - status
+  - tap
+testImports: []

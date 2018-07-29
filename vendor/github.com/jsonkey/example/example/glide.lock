@@ -1,0 +1,15 @@
+hash: 4ca897ef14b2d7db3f9f5404e44acb37a14da7c7193a9abdd223fcf3fbb8457d
+updated: 2018-05-26T22:02:21.897035281+08:00
+imports:
+- name: github.com/cihub/seelog
+  version: f561c5e57575bb1e0a2167028b7339b3a8d16fb4
+  subpackages:
+  - archive
+  - archive/gzip
+  - archive/tar
+  - archive/zip
+- name: github.com/jsonkey/example
+  version: ffbc5f10b795f0b2d6ba18abd16d5adef3bfa71b
+  subpackages:
+  - src/utils
+testImports: []

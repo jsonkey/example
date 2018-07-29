@@ -1,0 +1,5 @@
+package: .
+import:
+- package: github.com/jsonkey/example
+  subpackages:
+  - src/utils
